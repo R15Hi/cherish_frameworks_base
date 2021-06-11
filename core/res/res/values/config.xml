@@ -4608,9 +4608,10 @@
     <string name="config_batterymeterRLandBoltPathStyleB" translatable="false">@string/config_batterymeterLandBoltPathStyleB</string>
     <string name="config_batterymeterRLandPowersavePathStyleB" translatable="false">@string/config_batterymeterRLandPerimeterPathStyleB</string>
     <string name="config_batterymeterRLandErrorPerimeterPathStyleB" translatable="false">@string/config_batterymeterRLandPerimeterPathStyleB</string>
-    <!-- X path for SignalDrawable as defined on a 24x24 canvas. -->
-    <string name="config_signalXPath" translatable="false">
-        M22,16.41L20.59,15l-2.09,2.09L16.41,15L15,16.41l2.09,2.09L15,20.59L16.41,22l2.09-2.08L20.59,22L22,20.59l-2.08-2.09   L22,16.41z
+    
+    <!-- Attribution path for SignalDrawable as defined on a 24x24 canvas. -->
+    <string name="config_signalAttributionPath" translatable="false">
+        M20,10h2v8h-2z M20,20h2v2h-2z
     </string>
     
     <!-- Attribution path for SignalDrawable as defined on a 24x24 canvas. -->
@@ -4624,7 +4625,7 @@
 
     <!-- A dual tone battery meter draws the perimeter path twice - once to define the shape
      and a second time clipped to the fill level to indicate charge -->
-    <bool name="config_batterymeterDualTone">false</bool>
+    <bool name="config_batterymeterDualTone">true</bool>
 
     <!-- The default refresh rate for a given device. Change this value to set a higher default
          refresh rate. If the hardware composer on the device supports display modes with a higher
