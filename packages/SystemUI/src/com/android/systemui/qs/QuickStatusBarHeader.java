@@ -366,7 +366,16 @@ public class QuickStatusBarHeader extends FrameLayout implements TunerService.Tu
                 || mBatteryRemainingIcon.getBatteryStyle() == BATTERY_STYLE_DOTTED_CIRCLE
                 || mBatteryRemainingIcon.getBatteryStyle() == BATTERY_STYLE_FULL_CIRCLE
                 || mBatteryRemainingIcon.getBatteryStyle() == BATTERY_STYLE_RLANDSCAPE
-                || mBatteryRemainingIcon.getBatteryStyle() == BATTERY_STYLE_LANDSCAPE) {
+                || mBatteryRemainingIcon.getBatteryStyle() == BATTERY_STYLE_LANDSCAPE
+				 || mBatteryRemainingIcon.getBatteryStyle() == BATTERY_STYLE_LANDSCAPE_BUDDY
+                || mBatteryRemainingIcon.getBatteryStyle() == BATTERY_STYLE_LANDSCAPE_LINE
+                || mBatteryRemainingIcon.getBatteryStyle() == BATTERY_STYLE_LANDSCAPE_MUSKU
+				 || mBatteryRemainingIcon.getBatteryStyle() == BATTERY_STYLE_LANDSCAPE_PILL
+                || mBatteryRemainingIcon.getBatteryStyle() == BATTERY_STYLE_LANDSCAPE_SIGNAL
+                || mBatteryRemainingIcon.getBatteryStyle() == BATTERY_STYLE_RLANDSCAPE_STYLE_A
+				 || mBatteryRemainingIcon.getBatteryStyle() == BATTERY_STYLE_LANDSCAPE_STYLE_A
+                || mBatteryRemainingIcon.getBatteryStyle() == BATTERY_STYLE_RLANDSCAPE_STYLE_B
+                || mBatteryRemainingIcon.getBatteryStyle() == BATTERY_STYLE_LANDSCAPE_STYLE_B) {
                 textColorSecondary = Utils.getColorAttrDefaultColor(mContext,
                         android.R.attr.textColorHint);
             }
